@@ -1,0 +1,10 @@
+id: P32-C
+repository: aci-gt-p32-control
+visibility: public
+stage: P3
+rule: P3.2
+kind: control
+atomic_variable: "低信任文件存在但不被 workflow 使用"
+expected_status: BLOCKED
+setup: AUTO_FILES
+configuration_state: COMPLETE
