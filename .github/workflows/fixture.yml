@@ -1,0 +1,11 @@
+name: Ground Truth P32-C
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+permissions: read-all
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo low-trust-files-not-loaded
